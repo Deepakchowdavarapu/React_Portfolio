@@ -1,0 +1,14 @@
+
+
+.icons{
+    color:bisque;
+    height: 30px;
+}
+
+.fas{
+    display: flex;
+    gap: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+}

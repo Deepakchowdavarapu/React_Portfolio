@@ -1,0 +1,73 @@
+.whatidopage{
+    background-color: #1e1e1e;
+    color: white;
+    padding-bottom: 20vh;
+}
+
+.whatido{
+    padding-top:20vh;
+    /* padding-bottom: 20vh; */
+}
+
+body{
+    position: relative;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: bisque;
+}
+
+.projectDes{
+    position: relative;
+    height:30vh;
+    width:80vh;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20vw;
+    padding-right:20vw;
+    font-size: 1.2rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(13, 84, 147, 0.288); */
+    gap:8vh;
+}
+
+.project{
+    display: flex;
+    gap: 2vh;
+    padding: 2vh;
+    position: relative;
+    width:50vw;
+    align-items: center;
+    left: 20rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(30,30,30,0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.projects img{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+

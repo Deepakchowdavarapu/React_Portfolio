@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merienda&display=swap');
+
+nav{
+    height:5rem;
+    width:100vw;
+    margin:0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 3;
+    padding-right:100px;
+}
+
+li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.navlinkssec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.bigtext {
+    font-family: 'Merienda', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left:50px;
+    color: wheat;
+}
+
+.bigtext:hover{
+    color:tomato;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+.navlinks{
+    padding: 1.5rem;
+    color: bisque;
+}
+
+.navlinks:hover{
+    color:bisque;
+    font-size: 1rem;
+    font-family: 'Carter One', cursive;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+.contactbtn{
+    padding:1rem 2rem;
+    font-family:cursive;
+    color: bisque;
+    /* border: 2px solid white; */
+    border-radius: 2rem;
+}
+
+.contactbtn:hover{
+    /* background-color: bisque; */
+    color: bisque;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    font-family:cursive;
+    cursor: pointer;
+}
+
+/* .iconscontact:hover{
+    color:tomato;
+    transition: 0.5s ease;
+    cursor: pointer;
+} */

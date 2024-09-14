@@ -1,0 +1,19 @@
+.resumebtn{
+    padding:1rem 2rem;
+    background-color: aliceblue;
+}
+
+.resumebox{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 2vh;
+    position: relative;
+    width:50vw;
+    align-items: center;
+    left: 20rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(30,30,30,0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

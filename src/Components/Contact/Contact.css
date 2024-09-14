@@ -1,0 +1,67 @@
+.contact-page{
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding-bottom: 10vh;
+}
+
+.contacth1{
+    padding-bottom: 3vh;
+}
+
+    .boxes{
+        padding-left: 30vw;
+        padding-right: 20vw;
+        color: white;
+        display: flex;
+        gap:3rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 2rem;
+    }
+
+    .eachbox{
+        height: 4vh;
+        width: 40vw;
+        gap:3rem;
+        border: 3px solid bisque;
+        border-radius: 2rem;
+    }
+
+    .textbox{
+        height: 30vh;
+        width: 40vw;
+        border: 3px solid bisque;
+        border-radius: 2rem;
+    }
+
+    input {
+        color: bisque;
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        color: bisque;
+        font-size: 1.2rem;
+    }
+
+    .submit{
+        position: relative;
+        left:44vw;
+        width:fit-content;
+        color: bisque;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        font-family: cursive;
+        border:1px solid bisque;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    .submit:hover{
+        background-color:bisque;
+        color: black;
+        transition: 0.5s ease;
+        scale: 1.1;
+    }
