@@ -9,6 +9,19 @@
     /* padding-bottom: 20vh; */
 }
 
+button{
+    background: rgba(30,30,30,0.8);
+}
+
+.textbox{
+    background-color: rgba(30,30,30,0.8);
+}
+
+input{
+    background:rgba(30,30,30,0.8);
+    color: white;
+}
+
 body{
     position: relative;
 }
