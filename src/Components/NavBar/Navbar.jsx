@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './navbar.css';
 import {Link} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRProject,faAccusoft,fa42Group, faConnectdevelop } from '@fortawesome/free-brands-svg-icons';

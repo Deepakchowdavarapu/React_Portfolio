@@ -1,5 +1,5 @@
 import React from 'react';
-import './whatIdo.css';
+import './WhatIdo.css';
 
 const WhatIDo = () => {
     return (
